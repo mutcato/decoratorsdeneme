@@ -12,7 +12,7 @@ def not_during_the_night(func):
 
 
 def say_whee():
-    print("Whee!")
+    print("Wheee!")
 
 
 say_whee = not_during_the_night(say_whee)
