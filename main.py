@@ -13,6 +13,7 @@ def not_during_the_night(func):
 
 def say_whee():
     print("Wheee!")
+    print("Hey I am branch 1")
 
 
 say_whee = not_during_the_night(say_whee)
